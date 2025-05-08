@@ -1,13 +1,3 @@
----
-exercise_name: Rename the Variable
-concept: variables
-difficulty: 2
-est_minutes: 6
-tags:
-- comments-style
-- io
----
-
 # Rename the Variable
 ## Learning
 Picture a librarian labelling boxes simply “Thing 1” and “Thing 2”. Colleagues waste minutes opening lids before they find mystery novels or science magazines. Programmers face the same frustration when variables have vague names, yet a renaming takes seconds and yields lasting clarity.

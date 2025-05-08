@@ -1,13 +1,3 @@
----
-exercise_name: Print Your First Value
-concept: io
-difficulty: 1
-est_minutes: 5
-tags:
-- variables
-- data-types
----
-
 # Print Your First Value
 ## Learning
 You have just been hired to create personalised wristbands for a school trip. Each band must show the pupil’s name and their assigned coach number so teachers can match students to buses. If your script prints only one detail, the boarding queue descends into chaos.

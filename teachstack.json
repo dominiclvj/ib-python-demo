@@ -20,8 +20,8 @@
           "tests": [
             {
               "test": "test_print_name_number",
-              "name": "Print Name Number",
-              "description": "Print two stored variables to console"
+              "name": "Print Name and Number",
+              "description": "Print the two stored name and number variables to console"
             }
           ],
           "scripts": [
@@ -41,8 +41,8 @@
           "tests": [
             {
               "test": "test_silence_greeting",
-              "name": "Silence Greeting",
-              "description": "Comment print line without deleting code"
+              "name": "Silence the Greeting",
+              "description": "Use a comment to prevent the print statement printing to the Output"
             }
           ],
           "scripts": [
@@ -62,8 +62,8 @@
           "tests": [
             {
               "test": "test_refactor_identifiers",
-              "name": "Refactor Identifiers",
-              "description": "Replace placeholder names with meaningful identifiers"
+              "name": "Refactor the Identifiers",
+              "description": "Replace the placeholder variable names with meaningful identifiers"
             }
           ],
           "scripts": [
@@ -83,13 +83,13 @@
           "tests": [
             {
               "test": "test_declare_correct_types",
-              "name": "Declare Correct Types",
-              "description": "Assign values to properly typed variables"
+              "name": "Declare Correct Data Types",
+              "description": "Assign the variables to the correct data types"
             },
             {
               "test": "test_display_readings",
               "name": "Display Readings",
-              "description": "Print all variables on a single line"
+              "description": "Print all the variables on a single line"
             }
           ],
           "scripts": [

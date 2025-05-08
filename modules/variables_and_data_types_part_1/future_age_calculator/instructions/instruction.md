@@ -1,14 +1,3 @@
----
-exercise_name: Future Age Calculator
-concept: arithmetic
-difficulty: 3
-est_minutes: 10
-tags:
-- variables
-- io
-- data-types
----
-
 # Future Age Calculator
 ## Learning
 Your city’s transit authority is designing a smart pass that will adjust fares based on a rider’s age on **1 January 2050**. To prototype the back‑end, you need a script that asks for someone’s birth year, computes how old they will be on that date, and prints a friendly message. Get the formula right and commuters glide through gates; get it wrong and discounts misfire at midnight.

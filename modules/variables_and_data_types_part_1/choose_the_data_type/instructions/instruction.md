@@ -1,13 +1,3 @@
----
-exercise_name: Choose the Data Type
-concept: data-types
-difficulty: 2
-est_minutes: 8
-tags:
-- variables
-- io
----
-
 # Choose the Data Type
 ## Learning
 A weather station logs several readings: temperature, station code, and whether its battery is low. If you store everything as text, numeric averages become impossible; store everything as numbers and you lose the difference between “ON” and `True`. Picking the right data type is like selecting the correct measuring jug—pour milk into a sieve and you regret it.

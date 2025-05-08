@@ -1,13 +1,3 @@
----
-exercise_name: Comment the Output
-concept: comments-style
-difficulty: 1
-est_minutes: 5
-tags:
-- io
-- variables
----
-
 # Comment the Output
 ## Learning
 Imagine you are drafting safety messages for an airport departure board. One line mistakenly repeats an outdated announcement, causing passengers to wander needlessly. Rather than delete it—future regulations might revive that notice—you decide to silence the line temporarily.
