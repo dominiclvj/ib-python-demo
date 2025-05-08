@@ -8,8 +8,8 @@
   ],
   "modules": [
     {
-      "name": "Variables & Data Types (Part 1)",
-      "dir": "variables_and_data_types",
+      "name": "Storing Values",
+      "dir": "storing_values",
       "exercises": [
         {
           "name": "Print Your First Value",
@@ -19,14 +19,10 @@
           ],
           "tests": [
             {
-              "test": "test_print_your_first_value",
-              "name": "Store Name",
-              "description": "Assign string to your_name variable"
-            },
-            {
-              "test": "test_print_your_first_value",
-              "name": "Print Name",
-              "description": "Print your_name to console"
+              "test": "test_print_your_first_value.print_values",
+              "name": "Print Values",
+              "description": "Output name and number",
+              "order": 1
             }
           ],
           "scripts": [
@@ -45,14 +41,10 @@
           ],
           "tests": [
             {
-              "test": "test_comment_the_output",
-              "name": "Comment Line",
-              "description": "Prefix print with hash"
-            },
-            {
-              "test": "test_comment_the_output",
-              "name": "Keep Code",
-              "description": "Do not delete print line"
+              "test": "test_comment_the_output.comment_print",
+              "name": "Comment Print",
+              "description": "Disable print with comment",
+              "order": 1
             }
           ],
           "scripts": [
@@ -71,14 +63,10 @@
           ],
           "tests": [
             {
-              "test": "test_rename_the_variable",
+              "test": "test_rename_the_variable.rename_variable",
               "name": "Rename Variable",
-              "description": "Replace bad_name with lesson"
-            },
-            {
-              "test": "test_rename_the_variable",
-              "name": "Update Prints",
-              "description": "Print message three times using lesson"
+              "description": "Change variable name",
+              "order": 1
             }
           ],
           "scripts": [
@@ -97,14 +85,10 @@
           ],
           "tests": [
             {
-              "test": "test_choose_the_data_type",
-              "name": "Declare Types",
-              "description": "Create variables with correct types"
-            },
-            {
-              "test": "test_choose_the_data_type",
-              "name": "Explain Choice",
-              "description": "Add justification comment"
+              "test": "test_choose_the_data_type.select_types",
+              "name": "Select Types",
+              "description": "Declare four correct types",
+              "order": 1
             }
           ],
           "scripts": [
@@ -116,26 +100,29 @@
           ]
         },
         {
-          "name": "Future Age Calculator",
-          "dir": "future_age_calculator",
+          "name": "Age Calculator 2050",
+          "dir": "age_calculator_2050",
           "initialFiles": [
             "main.py"
           ],
           "tests": [
             {
-              "test": "test_future_age_calculator",
-              "name": "Read Year",
-              "description": "Convert input to int birth_year"
+              "test": "test_age_calculator_2050.birth_year_int",
+              "name": "Get birth year",
+              "description": "Store birth year as int",
+              "order": 1
             },
             {
-              "test": "test_future_age_calculator",
-              "name": "Calculate Age",
-              "description": "Compute age_2050 correctly"
+              "test": "test_age_calculator_2050.age_calculation",
+              "name": "Compute age",
+              "description": "Correctly calculate age for 2050",
+              "order": 2
             },
             {
-              "test": "test_future_age_calculator",
-              "name": "Display Message",
-              "description": "Print message with age_2050"
+              "test": "test_age_calculator_2050.bool_and_float",
+              "name": "Use bool float",
+              "description": "Include bool and float variables",
+              "order": 3
             }
           ],
           "scripts": [
