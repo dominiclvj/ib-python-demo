@@ -8,18 +8,20 @@
   ],
   "modules": [
     {
-      "name": "Hello World",
-      "dir": "HelloWorld",
+      "name": "Variables & Data Types (Part 1)",
+      "dir": "variables_data_types_part_1",
       "exercises": [
         {
-          "name": "Hello World",
-          "dir": "hello_world",
-          "initialFiles": ["main.py"],
+          "name": "Print Your First Value",
+          "dir": "print_your_first_value",
+          "initialFiles": [
+            "main.py"
+          ],
           "tests": [
             {
-              "test": "test_hello_world",
-              "name": "Print 'Hello World!'",
-              "description": "Use the print() function to dislpay 'Hello World!' in the Output window"
+              "test": "test_print_your_first_value",
+              "name": "1",
+              "description": "Store and display a student\u2019s name and favourite n"
             }
           ],
           "scripts": [
@@ -31,14 +33,16 @@
           ]
         },
         {
-          "name": "Comments",
-          "dir": "comments",
-          "initialFiles": ["main.py"],
+          "name": "Comment the Output",
+          "dir": "comment_the_output",
+          "initialFiles": [
+            "main.py"
+          ],
           "tests": [
             {
-              "test": "test_comment",
-              "name": "Comment out the print statement",
-              "description": "Use a comment to prevent the print() function from writing 'Hello World!' to the Output window"
+              "test": "test_comment_the_output",
+              "name": "1",
+              "description": "Disable a line of code with a comment to suppress "
             }
           ],
           "scripts": [
@@ -50,14 +54,16 @@
           ]
         },
         {
-          "name": "Variables",
-          "dir": "variables",
-          "initialFiles": ["main.py"],
+          "name": "Rename the Variable",
+          "dir": "rename_the_variable",
+          "initialFiles": [
+            "main.py"
+          ],
           "tests": [
             {
-              "test": "test_variables",
-              "name": "Assign subjects to afternoon and evening classes",
-              "description": "Assign the lesson variable to represent different subjects for the afternoon and evening classes"
+              "test": "test_rename_the_variable",
+              "name": "1",
+              "description": "Refactor an unclear identifier to an expressive na"
             }
           ],
           "scripts": [
@@ -69,14 +75,16 @@
           ]
         },
         {
-          "name": "Errors",
-          "dir": "errors",
-          "initialFiles": ["main.py"],
+          "name": "Choose the Data Type",
+          "dir": "choose_the_data_type",
+          "initialFiles": [
+            "main.py"
+          ],
           "tests": [
             {
-              "test": "test_errors",
-              "name": "Debug the code to allow the strings to print to Output",
-              "description": "Fix the code to stop the NameError and SyntaxError from occuring, allowing the text to display in the Output window"
+              "test": "test_choose_the_data_type",
+              "name": "1",
+              "description": "Select and declare suitable variable types for giv"
             }
           ],
           "scripts": [
@@ -88,97 +96,22 @@
           ]
         },
         {
-          "name": "Numbers",
-          "dir": "numbers_1",
-          "initialFiles": ["main.py"],
+          "name": "Age on 2050",
+          "dir": "age_on_2050",
+          "initialFiles": [
+            "main.py"
+          ],
           "tests": [
             {
-              "test": "test_integers",
-              "name": "Assign the correct integers to the variables",
-              "description": "Assign the current_year, hours_in_a_day and days_in_a_week variables with the correct integers"
-            },
-            {
-              "test": "test_floats",
-              "name": "Assign the correct floats to the variables",
-              "description": "Assign the pi_to_three_places and probability_of_heads_in_coin_flip variables with the correct floats"
-            },
-            {
-              "test": "test_print_year",
-              "name": "Print the current_year variable",
-              "description": "Use the print function to print the current year variable to Output"
+              "test": "test_age_on_2050",
+              "name": "1",
+              "description": "Build a script that asks for birth year and prints"
             }
           ],
           "scripts": [
             {
               "language": "python",
               "script": "main.py",
-              "args": []
-            }
-          ]
-        },
-        {
-          "name": "Calculations, Part 1",
-          "dir": "calculations_1",
-          "initialFiles": ["main.py"],
-          "tests": [
-            {
-              "test": "test_multiplication",
-              "name": "Calculate the number of hours in a week",
-              "description": "Calculate the number of hours in a week by multiplying together the hours_in_a_day and days_in_a_week variables"
-            },
-            {
-              "test": "test_division",
-              "name": "Calculate the diameter of a circle",
-              "description": "Calculate the diameter of the circle by dividing the circle_circumference variable by the pi_to_three_places variable"
-            }
-          ],
-          "scripts": [
-            {
-              "language": "python",
-              "script": "main.py",
-              "args": []
-            }
-          ]
-        },
-        {
-          "name": "Calculations, Part 2",
-          "dir": "calculations_2",
-          "initialFiles": ["main.py"],
-          "tests": [
-            {
-              "test": "test_exponent",
-              "name": "Calculate the required number of tiles",
-              "description": "Calculate the number of tiles needed to fully tile the square room and assign it to the tiles_required variable"
-            },
-            {
-              "test": "test_modulo",
-              "name": "Calculate the number of leftover tiles",
-              "description": "Calculate how many tiles will be left over if you buy the minimum number of tile packs required for the room and assign it to the leftover_tiles variable"
-            }
-          ],
-          "scripts": [
-            {
-              "language": "python",
-              "script": "main.py",
-              "args": []
-            }
-          ]
-        },
-        {
-          "name": "Summary",
-          "dir": "summary",
-          "initialFiles": ["main.py"],
-          "tests": [
-            {
-              "test": "test_summary",
-              "name": "Provide a proof of the Riemann hypothesis",
-              "description": "Use the print function to display a complete proof of the Riemann hypothesis"
-            }
-          ],
-          "scripts": [
-            {
-              "language": "python",
-              "script": "ee.py",
               "args": []
             }
           ]
