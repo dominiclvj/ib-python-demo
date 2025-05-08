@@ -8,8 +8,8 @@
   ],
   "modules": [
     {
-      "name": "Storing Values",
-      "dir": "storing_values",
+      "name": "Variables & Data Types",
+      "dir": "variables_and_data_types_part_1",
       "exercises": [
         {
           "name": "Print Your First Value",
@@ -19,10 +19,9 @@
           ],
           "tests": [
             {
-              "test": "test_print_your_first_value.print_values",
-              "name": "Print Values",
-              "description": "Output name and number",
-              "order": 1
+              "test": "test_print_name_number",
+              "name": "Print Name Number",
+              "description": "Print two stored variables to console"
             }
           ],
           "scripts": [
@@ -41,10 +40,9 @@
           ],
           "tests": [
             {
-              "test": "test_comment_the_output.comment_print",
-              "name": "Comment Print",
-              "description": "Disable print with comment",
-              "order": 1
+              "test": "test_silence_greeting",
+              "name": "Silence Greeting",
+              "description": "Comment print line without deleting code"
             }
           ],
           "scripts": [
@@ -63,10 +61,9 @@
           ],
           "tests": [
             {
-              "test": "test_rename_the_variable.rename_variable",
-              "name": "Rename Variable",
-              "description": "Change variable name",
-              "order": 1
+              "test": "test_refactor_identifiers",
+              "name": "Refactor Identifiers",
+              "description": "Replace placeholder names with meaningful identifiers"
             }
           ],
           "scripts": [
@@ -85,10 +82,14 @@
           ],
           "tests": [
             {
-              "test": "test_choose_the_data_type.select_types",
-              "name": "Select Types",
-              "description": "Declare four correct types",
-              "order": 1
+              "test": "test_declare_correct_types",
+              "name": "Declare Correct Types",
+              "description": "Assign values to properly typed variables"
+            },
+            {
+              "test": "test_display_readings",
+              "name": "Display Readings",
+              "description": "Print all variables on a single line"
             }
           ],
           "scripts": [
@@ -100,29 +101,26 @@
           ]
         },
         {
-          "name": "Age Calculator 2050",
-          "dir": "age_calculator_2050",
+          "name": "Future Age Calculator",
+          "dir": "future_age_calculator",
           "initialFiles": [
             "main.py"
           ],
           "tests": [
             {
-              "test": "test_age_calculator_2050.birth_year_int",
-              "name": "Get birth year",
-              "description": "Store birth year as int",
-              "order": 1
+              "test": "test_get_birth_year",
+              "name": "Get Birth Year",
+              "description": "Read birth year as integer input"
             },
             {
-              "test": "test_age_calculator_2050.age_calculation",
-              "name": "Compute age",
-              "description": "Correctly calculate age for 2050",
-              "order": 2
+              "test": "test_compute_future_age",
+              "name": "Compute Future Age",
+              "description": "Calculate age_in_2050 using subtraction correctly"
             },
             {
-              "test": "test_age_calculator_2050.bool_and_float",
-              "name": "Use bool float",
-              "description": "Include bool and float variables",
-              "order": 3
+              "test": "test_greet_user",
+              "name": "Greet User",
+              "description": "Print friendly message containing computed age"
             }
           ],
           "scripts": [
