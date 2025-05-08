@@ -9,7 +9,7 @@
   "modules": [
     {
       "name": "Variables & Data Types (Part 1)",
-      "dir": "variables_data_types_part_1",
+      "dir": "variables_and_data_types",
       "exercises": [
         {
           "name": "Print Your First Value",
@@ -20,8 +20,13 @@
           "tests": [
             {
               "test": "test_print_your_first_value",
-              "name": "1",
-              "description": "Store and display a student\u2019s name and favourite n"
+              "name": "Store Name",
+              "description": "Assign string to your_name variable"
+            },
+            {
+              "test": "test_print_your_first_value",
+              "name": "Print Name",
+              "description": "Print your_name to console"
             }
           ],
           "scripts": [
@@ -41,8 +46,13 @@
           "tests": [
             {
               "test": "test_comment_the_output",
-              "name": "1",
-              "description": "Disable a line of code with a comment to suppress "
+              "name": "Comment Line",
+              "description": "Prefix print with hash"
+            },
+            {
+              "test": "test_comment_the_output",
+              "name": "Keep Code",
+              "description": "Do not delete print line"
             }
           ],
           "scripts": [
@@ -62,8 +72,13 @@
           "tests": [
             {
               "test": "test_rename_the_variable",
-              "name": "1",
-              "description": "Refactor an unclear identifier to an expressive na"
+              "name": "Rename Variable",
+              "description": "Replace bad_name with lesson"
+            },
+            {
+              "test": "test_rename_the_variable",
+              "name": "Update Prints",
+              "description": "Print message three times using lesson"
             }
           ],
           "scripts": [
@@ -83,8 +98,13 @@
           "tests": [
             {
               "test": "test_choose_the_data_type",
-              "name": "1",
-              "description": "Select and declare suitable variable types for giv"
+              "name": "Declare Types",
+              "description": "Create variables with correct types"
+            },
+            {
+              "test": "test_choose_the_data_type",
+              "name": "Explain Choice",
+              "description": "Add justification comment"
             }
           ],
           "scripts": [
@@ -96,16 +116,26 @@
           ]
         },
         {
-          "name": "Age on 2050",
-          "dir": "age_on_2050",
+          "name": "Future Age Calculator",
+          "dir": "future_age_calculator",
           "initialFiles": [
             "main.py"
           ],
           "tests": [
             {
-              "test": "test_age_on_2050",
-              "name": "1",
-              "description": "Build a script that asks for birth year and prints"
+              "test": "test_future_age_calculator",
+              "name": "Read Year",
+              "description": "Convert input to int birth_year"
+            },
+            {
+              "test": "test_future_age_calculator",
+              "name": "Calculate Age",
+              "description": "Compute age_2050 correctly"
+            },
+            {
+              "test": "test_future_age_calculator",
+              "name": "Display Message",
+              "description": "Print message with age_2050"
             }
           ],
           "scripts": [
