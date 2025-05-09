@@ -62,7 +62,7 @@
           "tests": [
             {
               "test": "test_refactor_identifiers",
-              "name": "Refactor the Identifiers",
+              "name": "Refactor the Variables",
               "description": "Replace the placeholder variable names with meaningful identifiers"
             }
           ],

@@ -19,7 +19,7 @@ def load(capture=False):
 def test_refactor_identifiers():
     module, out = load(capture=True)
     assert hasattr(module, "morning_lesson") and hasattr(module, "afternoon_lesson"), "Expected renamed variables"
-    assert isinstance(module.morning_session, str) and isinstance(module.evening_session, str)
+    assert isinstance(module.morning_lesson, str) and isinstance(module.afternoon_lesson, str)
     assert "x" not in module.__dict__, "Placeholder variable x should be removed"
     assert "y" not in module.__dict__, "Placeholder variable y should be removed"
-    assert module.morning_session in out and module.evening_session in out, "Both lessons should be printed"
+    assert module.morning_lession in out and module.afternoon_lession in out, "Both lessons should be printed"
