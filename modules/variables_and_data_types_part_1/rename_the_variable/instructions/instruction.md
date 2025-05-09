@@ -2,13 +2,17 @@
 ## Learning
 Picture a librarian labelling boxes simply “Thing 1” and “Thing 2”. Colleagues waste minutes opening lids before they find mystery novels or science magazines. Programmers face the same frustration when variables have vague names, yet a renaming takes seconds and yields lasting clarity.
 
-In Python you can reassign a variable or create a new one, but the smartest move is to give it a meaningful label from the outset. Changing every reference is painless, yet forgetting a single spot produces a `NameError` and halts the script.
+In Python you can reassign a variable or create a new one, but the smartest move is to give it a meaningful label from the outset. The snippet below prints a value stored in the catch‑all identifier `temp`. If you come across this code like this that was written by someone else, you will ask “What is temp?” 
 
 ```python
-temp = "Giacometti"
-print(temp)        # hint: rename 'temp' to reveal the artist's role
+temp = "Science Fiction"
+print(temp)
 ```
 
-The snippet prints a surname stored in the catch‑all identifier `temp`. Paste it into your project and your peers will still ask “What is temp?” Your mission is to refactor the skeletal code by replacing placeholder names with expressive ones—no extra logic required. Then display each reassigned value in sequence to trace how state changes through the day.
+Given the context of books in a library, a more useful variable name might be `genre` or even something more specific like `shelf_a_genre`. This would tell us that the books on shelf A all belong to the science fiction genre.
 
-Along the way you will glimpse Python’s dynamic typing: changing an identifier’s name changes nothing about the underlying data, yet the boost to readability is enormous. Consistent naming also primes you for later topics like scope, where a stray identifier can shadow another and introduce subtle bugs. Practise now; future teammates—and your examiners—will thank you.
+You need to get in to the habit early of providing useful and descriptive names for your variables to help others **and** future you who might leave some code and then come back to it a week later.
+
+In the exercise file we have listed your `morning_lesson` and `afternoon_lesson` with very unhelpful variable names that tell you nothing about what the data they contain, or what it might be being used for as part of a larger programmme.
+
+Get cracking with the exercise. You'll see that changing an identifier’s name changes nothing about the underlying data, yet the boost to readability is enormous. Practise now. Future colleagues, and your IB examiners, will thank you.

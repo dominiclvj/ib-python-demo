@@ -115,7 +115,7 @@
             {
               "test": "test_compute_future_age",
               "name": "Compute Future Age",
-              "description": "Calculate age_in_2050 using subtraction correctly"
+              "description": "Calculate age_in_2050 correctly using subtraction"
             },
             {
               "test": "test_greet_user",
@@ -129,7 +129,9 @@
               "script": "main.py",
               "args": []
             }
-          ]
+          ],
+          "inputMatch": "Enter your [a-zA-Z]+",
+          "inputMatchFlags": "i"
         }
       ]
     }

@@ -1,14 +1,16 @@
 # Choose the Data Type
 ## Learning
-A weather station logs several readings: temperature, station code, and whether its battery is low. If you store everything as text, numeric averages become impossible; store everything as numbers and you lose the difference between “ON” and `True`. Picking the right data type is like selecting the correct measuring jug—pour milk into a sieve and you regret it.
+A weather station logs several readings: temperature, station code, and whether its battery is low. While it makes sense to store some of these as text (or a string), if everything is text then performing mathematical calculations becomes impossible. In some cases you might want the computer to quickly evaluate if something is "ON" or "OFF", which a computer could represent as `True` or `False`.
 
-Python offers four primitives you have met today: `int`, `float`, `str`, and `bool`. The `type()` function confirms a variable’s nature, and implicit coercion sometimes swaps types behind your back. A savvy coder therefore decides explicitly which container to use before data ever flows.
+Python offers four data types to handle : `int`, `float`, `str`, and `bool`. These will be assigned automatically by the Python interpreter if you don't tell it which one to use. Or we can tell Python which data type it should use as in the example below.
 
 ```python
-reading = "23.5"          # starts as text
-celsius = float(reading)  # hint: also record if sensor is offline
+reading = "23.5"          # starts as text ('str')
+celsius = float(reading)  # reassigned to a number ('float')
 ```
 
-Above we convert a string to a float so maths becomes legal, but we never capture the Boolean status. In the real exercise you will be given mixed inputs such as `"True"` and `31` and must assign each to a variable whose type matches its meaning. Checks will confirm both the value and the underlying class, so casting errors surface quickly.
+The `type()` function can be used to check a given variable's data type. If in this example you run `print(type(celsius))` then then Output would tell you that the variable was a `float`.
 
-Finish by printing all variables neatly; seeing values side by side reinforces the link between literal appearance and internal representation. Accurate classification here lays the groundwork for robust programs that do not choke on unexpected input.
+Above we convert a string to a float so maths becomes legal. In the real exercise you will be given mixed inputs such as `"True"` and `31` and must assign each to a variable whose type matches its meaning.
+
+Finish by printing all variables side-by-side to the output. Accurate use of data types here lays the groundwork for robust programs that do not choke on unexpected input.

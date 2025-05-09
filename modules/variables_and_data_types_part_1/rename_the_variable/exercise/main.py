@@ -1,4 +1,4 @@
-# TODO: rename variables to meaningful identifiers
+# TODO: rename variables to describe your timetable
 x = "Art"
 y = "Science"
 
