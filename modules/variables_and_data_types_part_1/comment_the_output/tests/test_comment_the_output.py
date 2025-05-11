@@ -5,7 +5,7 @@ def test_silence_greeting(capsys):
     """
     Program should produce no output but still contain print statement
     """
-    from exercise import main
+    from comment_the_output.exercise import main
     captured = capsys.readouterr()
     assert captured.out == ""
 
